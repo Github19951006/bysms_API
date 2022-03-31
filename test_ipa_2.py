@@ -6,6 +6,7 @@
 @File   :test_ipa_2.py
 """
 import requests
+ghg
 
 proxies = {
   'http': 'http://127.0.0.1:8888',
