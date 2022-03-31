@@ -38,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test_ipa_2.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="276ff4zM8b35NUZuVABHZPziJMM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -133,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648742486005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1648742725417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648742725417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,34 +165,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-658" y="802" key="#Notifications" timestamp="1648742776317">
+      <screen x="-1080" y="0" width="1080" height="1860" />
+    </state>
+    <state x="-658" y="802" key="#Notifications/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742776317" />
     <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1648742563582">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742563582" />
-    <state x="574" y="358" key="Github.ShareDialog" timestamp="1648645712281">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="-649" y="724" key="Github.ShareDialog" timestamp="1648742927053">
+      <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
+    <state x="-649" y="724" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742927053" />
     <state x="574" y="358" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645712281" />
     <state x="576" y="163" key="Github.UntrackedFilesDialog" timestamp="1648645719730">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="576" y="163" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645719730" />
-    <state width="1037" height="813" key="GridCell.Tab.0.bottom" timestamp="1648742513381">
+    <state width="883" height="499" key="GridCell.Tab.0.bottom" timestamp="1648744346543">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="813" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742513381" />
-    <state width="1037" height="813" key="GridCell.Tab.0.center" timestamp="1648742513381">
+    <state width="883" height="499" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744346543" />
+    <state width="883" height="499" key="GridCell.Tab.0.center" timestamp="1648744346543">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="813" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742513381" />
-    <state width="1037" height="813" key="GridCell.Tab.0.left" timestamp="1648742513381">
+    <state width="883" height="499" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744346543" />
+    <state width="883" height="499" key="GridCell.Tab.0.left" timestamp="1648744346543">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="813" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742513381" />
-    <state width="1037" height="813" key="GridCell.Tab.0.right" timestamp="1648742513381">
+    <state width="883" height="499" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744346543" />
+    <state width="883" height="499" key="GridCell.Tab.0.right" timestamp="1648744346543">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="813" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742513381" />
+    <state width="883" height="499" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744346543" />
     <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1648649542743">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -199,13 +214,13 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state width="1037" height="684" key="GridCell.Tab.1.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648649542743" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648742494096">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648742739318">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742494096" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742739318" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_1.coverage" NAME="test_ipa_1 Coverage Results" MODIFIED="1648656176817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_2.coverage" NAME="test_ipa_2 Coverage Results" MODIFIED="1648742047621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_1.coverage" NAME="test_ipa_1 Coverage Results" MODIFIED="1648743940093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_2.coverage" NAME="test_ipa_2 Coverage Results" MODIFIED="1648744385192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

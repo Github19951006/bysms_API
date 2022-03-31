@@ -17,5 +17,9 @@ urlpara = {
   'rsv_spt' : '1'
 }
 
-response = requests.get('https://www.baidu.com/s',params= urlpara,proxies = proxies)
+response = requests.get(
+  'http://www.baidu.com/s',
+  params = urlpara,proxies = proxies
+)
+
 print(response.text)
