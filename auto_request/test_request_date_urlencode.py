@@ -3,7 +3,7 @@
 @Author : 文跃锐（yuerwen）
 @University:东莞理工学院
 @Time   : 2022/03/30
-@File   :test_ipa_3.py
+@File   :test_request_date_urlencode.py
 """
 import requests
 
@@ -13,17 +13,17 @@ proxies = {
   'https': 'http://127.0.0.1:8888',
 }
 
-# 请求的消息头
-headers = {
-  'user-agent' : 'my-app/0.0.1',
-  'auth-type' : 'jwt-token'
+# xml格式的消息体
+payload = {
+  'key1': 'value1',
+  'key2': 'value2'
 }
 
 
 response = requests.post(
   "http://httpbin.org/post",
   proxies = proxies,
-  headers = headers
+  data= payload
 )
 
 print(response.text)

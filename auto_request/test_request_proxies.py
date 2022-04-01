@@ -3,7 +3,7 @@
 @Author : 文跃锐（yuerwen）
 @University:东莞理工学院
 @Time   : 2022/03/30
-@File   :test_ipa_1.py
+@File   :test_request_proxies.py
 """
 import requests
 
