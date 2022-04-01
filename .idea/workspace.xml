@@ -20,13 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/auto_request/test_request_date_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_request/test_request_date_urlencode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto_request/test_request_date_xml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_request/test_response_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_request/test_response_headers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_request/test_response_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto_request/test_response_status_code.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_request/test_ipa_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_request/test_request_proxies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_request/test_ipa_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_request/test_request_url.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto_request/test_ipa_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_request/test_request_headers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <recent name="D:\study\Auto_bysms_API\auto_request" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_request_date_json">
+  <component name="RunManager" selected="Python.test_response_json">
     <configuration name="test_request_date_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_bysms_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_request_headers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_response_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_bysms_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,7 +155,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\study\Auto_bysms_API\auto_request\test_request_headers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_request/test_response_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_request_url" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_response_status_code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Auto_bysms_API" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/auto_request" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\study\Auto_bysms_API\auto_request\test_request_url.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_request/test_response_status_code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_response_json" />
+        <item itemvalue="Python.test_response_status_code" />
         <item itemvalue="Python.test_request_date_json" />
         <item itemvalue="Python.test_request_date_urlencode" />
         <item itemvalue="Python.test_request_date_xml" />
-        <item itemvalue="Python.test_request_headers" />
-        <item itemvalue="Python.test_request_url" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,7 @@
       <updated>1648645555998</updated>
       <workItem from="1648645557296" duration="5378000" />
       <workItem from="1648741008283" duration="1032000" />
-      <workItem from="1648820977042" duration="3051000" />
+      <workItem from="1648820977042" duration="6264000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -240,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648821198950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1648824256060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648824256060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,22 +285,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="576" y="163" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645719730" />
-    <state width="1037" height="764" key="GridCell.Tab.0.bottom" timestamp="1648824030224">
+    <state width="1037" height="764" key="GridCell.Tab.0.bottom" timestamp="1648826596813">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="764" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648824030224" />
-    <state width="1037" height="764" key="GridCell.Tab.0.center" timestamp="1648824030224">
+    <state width="1037" height="764" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648826596813" />
+    <state width="1037" height="764" key="GridCell.Tab.0.center" timestamp="1648826596813">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="764" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648824030224" />
-    <state width="1037" height="764" key="GridCell.Tab.0.left" timestamp="1648824030224">
+    <state width="1037" height="764" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648826596813" />
+    <state width="1037" height="764" key="GridCell.Tab.0.left" timestamp="1648826596813">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="764" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648824030224" />
-    <state width="1037" height="764" key="GridCell.Tab.0.right" timestamp="1648824030224">
+    <state width="1037" height="764" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648826596813" />
+    <state width="1037" height="764" key="GridCell.Tab.0.right" timestamp="1648826596813">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="764" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648824030224" />
+    <state width="1037" height="764" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648826596813" />
     <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1648823640378">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -316,17 +321,19 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744495411" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648821206203">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648824260107">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648821206203" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648824260107" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_1.coverage" NAME="test_ipa_1 Coverage Results" MODIFIED="1648743940093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_2.coverage" NAME="test_ipa_2 Coverage Results" MODIFIED="1648744385192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_response_json.coverage" NAME="test_response_json Coverage Results" MODIFIED="1648826596806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_request_date_xml.coverage" NAME="test_request_date_xml Coverage Results" MODIFIED="1648823034582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
+    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_response_status_code.coverage" NAME="test_response_status_code Coverage Results" MODIFIED="1648826015016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_3.coverage" NAME="test_ipa_3 Coverage Results" MODIFIED="1648821375710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
-    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_request_date_json.coverage" NAME="test_request_date_json Coverage Results" MODIFIED="1648824097698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
+    <SUITE FILE_PATH="coverage/Auto_bysms_API$test_request_date_json.coverage" NAME="test_request_date_json Coverage Results" MODIFIED="1648825659583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_request_date_urlencode.coverage" NAME="test_request_date_urlencode Coverage Results" MODIFIED="1648823650396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
   </component>
 </project>
