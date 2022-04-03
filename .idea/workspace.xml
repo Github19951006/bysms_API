@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto_request/bysms_api_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_request/bysms_api_practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,7 +206,7 @@
       <workItem from="1648741008283" duration="1032000" />
       <workItem from="1648820977042" duration="6875000" />
       <workItem from="1648834528676" duration="579000" />
-      <workItem from="1648958841818" duration="10989000" />
+      <workItem from="1648958841818" duration="11790000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -272,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648969453377</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Initial commit">
+      <created>1648972091548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648972091548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,10 +354,14 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744495411" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648969459948">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648972095170">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648969459948" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972095170" />
+    <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1648972190367">
+      <screen x="-1080" y="0" width="1080" height="1860" />
+    </state>
+    <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972190367" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_1.coverage" NAME="test_ipa_1 Coverage Results" MODIFIED="1648743940093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -362,6 +372,6 @@
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_ipa_3.coverage" NAME="test_ipa_3 Coverage Results" MODIFIED="1648821375710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_request_date_json.coverage" NAME="test_request_date_json Coverage Results" MODIFIED="1648825659583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
     <SUITE FILE_PATH="coverage/Auto_bysms_API$test_request_date_urlencode.coverage" NAME="test_request_date_urlencode Coverage Results" MODIFIED="1648823650396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
-    <SUITE FILE_PATH="coverage/Auto_bysms_API$bysms_api_practice.coverage" NAME="bysms_api_practice Coverage Results" MODIFIED="1648972037066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
+    <SUITE FILE_PATH="coverage/Auto_bysms_API$bysms_api_practice.coverage" NAME="bysms_api_practice Coverage Results" MODIFIED="1648972899832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/auto_request" />
   </component>
 </project>
