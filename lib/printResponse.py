@@ -6,6 +6,7 @@
 @File   :printResponse.py
 """
 import requests,json
+import pprint
 
 def responseData(response):
 	print('------------响应状态码---------------')
@@ -17,4 +18,4 @@ def responseData(response):
 	
 	print('------------响应消息体---------------')
 	obj = json.loads(response.content.decode('utf8'))
-	print(obj)
+	pprint.pprint(obj)
