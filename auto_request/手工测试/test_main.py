@@ -43,9 +43,11 @@ def main():
 	
 	
 	# API - 0251
+	# 删除不存在的id客户
 	api.customers_del(76)
 	
  	# API - 0252
+	# 删除存在的id客户
 	api.customers_del(763)
 
 if __name__ == '__main__':
