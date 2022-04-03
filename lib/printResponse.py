@@ -16,6 +16,7 @@ def responseData(response):
 	for k, v in response.headers.items():
 		print(f'{k}: {v}')
 	
+	print(' ')
 	print('------------响应消息体---------------')
 	obj = json.loads(response.content.decode('utf8'))
 	pprint.pprint(obj)
