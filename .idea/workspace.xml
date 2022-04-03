@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/auto_request/bysms_api_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto_request/bysms_api_practice.py" afterDir="false" />
-    </list>
+    <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +204,7 @@
       <workItem from="1648741008283" duration="1032000" />
       <workItem from="1648820977042" duration="6875000" />
       <workItem from="1648834528676" duration="579000" />
-      <workItem from="1648958841818" duration="11790000" />
+      <workItem from="1648958841818" duration="11920000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -278,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648972091548</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Initial commit">
+      <created>1648972910257</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648972910257</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,10 +310,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-658" y="802" key="#Notifications/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742776317" />
-    <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1648962532351">
+    <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1648973005262">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648962532351" />
+    <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648973005262" />
     <state x="-649" y="724" key="Github.ShareDialog" timestamp="1648742927053">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -318,22 +323,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="576" y="163" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645719730" />
-    <state width="1037" height="468" key="GridCell.Tab.0.bottom" timestamp="1648972037072">
+    <state width="1037" height="468" key="GridCell.Tab.0.bottom" timestamp="1648973006408">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="468" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972037072" />
-    <state width="1037" height="468" key="GridCell.Tab.0.center" timestamp="1648972037072">
+    <state width="1037" height="468" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648973006408" />
+    <state width="1037" height="468" key="GridCell.Tab.0.center" timestamp="1648973006408">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="468" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972037072" />
-    <state width="1037" height="468" key="GridCell.Tab.0.left" timestamp="1648972037072">
+    <state width="1037" height="468" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648973006408" />
+    <state width="1037" height="468" key="GridCell.Tab.0.left" timestamp="1648973006408">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="468" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972037072" />
-    <state width="1037" height="468" key="GridCell.Tab.0.right" timestamp="1648972037072">
+    <state width="1037" height="468" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648973006408" />
+    <state width="1037" height="468" key="GridCell.Tab.0.right" timestamp="1648973006408">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="468" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972037072" />
+    <state width="1037" height="468" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648973006408" />
     <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1648823640378">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -354,10 +359,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648744495411" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648972095170">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1648972916062">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972095170" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648972916062" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1648972190367">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
