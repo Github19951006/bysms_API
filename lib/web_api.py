@@ -99,8 +99,42 @@ class APIMgr:
 		responseData(response)
 		return response
 	
+	# 删除所有药品
+	def medicines_del_all(self):
+		response = self.medicines_list()
+		total_number = response.json()['total']
+		if total_number == 0:
+			return None
+		else:
+			response = self.medicines_list(pagesize= total_number)
+			retList = response.json()['retlist']
+			for medicine_mid in retList:
+				self.medicines_del(medicine_mid['id'])
+		
+	# 删除所有客户
 	def customers_del_all(self):
-		pass
+		response = self.customer_list()
+		total_number = response.json()['total']
+		if total_number == 0:
+			return None
+		else:
+			response = self.customer_list(pagesize=total_number)
+			retList = response.json()['retlist']
+			for customer_cid in retList:
+				self.customers_del(customer_cid['id'])
+		
+	# 删除所有订单
+	def orders_del_all(self):
+		response = self.orders_list()
+		total_number = response.json()['total']
+		if total_number == 0:
+			return None
+		else:
+			response = self.orders_list(pagesize=total_number)
+			retList = response.json()['retlist']
+			for orders_oid in retList:
+				self.orders_del(orders_oid['id'])
+	
 	'''--------------------------------药品---------------------------'''
 	
 	def medicines_list(self,file = 'http://127.0.0.1',pagesize = 10,pagenum = 1,keywords = ''):

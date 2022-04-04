@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/cases/customer_API/add_customer_API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/data_environment_None/__st__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/web_api.py" afterDir="false" />
     </list>
@@ -40,6 +42,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/auto_request/test_request_url.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/customer_API/add_customer_API.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/auto_request/test_request_headers.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/auto_request/test_request_date_urlencode.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/web_api.py" root0="SKIP_INSPECTION" />
@@ -59,10 +62,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Auto_hytest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -216,7 +220,7 @@
       <workItem from="1648834528676" duration="579000" />
       <workItem from="1648958841818" duration="11920000" />
       <workItem from="1648974703569" duration="13273000" />
-      <workItem from="1649006747613" duration="10918000" />
+      <workItem from="1649006747613" duration="17028000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -330,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649066503517</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Initial commit">
+      <created>1649075861879</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649075861880</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,10 +368,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-658" y="802" key="#Notifications/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742776317" />
-    <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1649062067856">
+    <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1649079065945">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649062067856" />
+    <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649079065945" />
     <state x="-649" y="724" key="Github.ShareDialog" timestamp="1648742927053">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -370,22 +381,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="576" y="163" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645719730" />
-    <state width="1037" height="548" key="GridCell.Tab.0.bottom" timestamp="1649052731208">
+    <state width="1037" height="681" key="GridCell.Tab.0.bottom" timestamp="1649082630726">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="548" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649052731207" />
-    <state width="1037" height="548" key="GridCell.Tab.0.center" timestamp="1649052731207">
+    <state width="1037" height="681" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649082630726" />
+    <state width="1037" height="681" key="GridCell.Tab.0.center" timestamp="1649082630726">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="548" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649052731207" />
-    <state width="1037" height="548" key="GridCell.Tab.0.left" timestamp="1649052731207">
+    <state width="1037" height="681" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649082630726" />
+    <state width="1037" height="681" key="GridCell.Tab.0.left" timestamp="1649082630726">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="548" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649052731207" />
-    <state width="1037" height="548" key="GridCell.Tab.0.right" timestamp="1649052731207">
+    <state width="1037" height="681" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649082630726" />
+    <state width="1037" height="681" key="GridCell.Tab.0.right" timestamp="1649082630726">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="548" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649052731207" />
+    <state width="1037" height="681" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649082630726" />
     <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1648823640378">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -406,10 +417,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649067041881" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649066509506">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649075869816">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649066509506" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649075869816" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649006031659">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
