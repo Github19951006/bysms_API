@@ -5,7 +5,6 @@
 @Time   : 2022/04/03
 @File   :test_api_0002.py
 """
-import requests
 from lib.printResponse import *
 payload = {
 	'username': 'byhy',

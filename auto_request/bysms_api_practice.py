@@ -5,7 +5,6 @@
 @Time   : 2022/04/03
 @File   :bysms_api_practice.py
 """
-import requests, json
 from lib.printResponse import *
 
 # 设置代理
@@ -47,25 +46,25 @@ def customers_list():
     }
     response = session.get('http://127.0.0.1/api/mgr/customers',
                             params = urlpara,
-                            proxies = proxies
+                            # proxies = proxies
                             )
     return responseData(response)
 
-customers_list()
+# customers_list()
 
 def customers_add():
     # 添加一个客户
     payload = {
         "action":"add_customer",
         "data":{
-            "name":"武汉市桥西医院",
+            "name":'武汉市桥西医院',
             "phonenumber":"13345679934",
             "address":"武汉市桥西医院北路"
         }
     }
     response = session.post('http://127.0.0.1/api/mgr/customers',
                             json = payload,
-                            proxies = proxies
+                            # proxies = proxies
                             )
     return responseData(response)
 customers_add()
@@ -86,7 +85,7 @@ def customers_modify():
                             proxies = proxies
                             )
     return responseData(response)
-customers_modify()
+# customers_modify()
 
 def customers_del():
     # 删除客户信息
@@ -94,13 +93,13 @@ def customers_del():
         "action":"del_customer",
         "id": 696
     }
-    
+
     response = session.delete('http://127.0.0.1/api/mgr/customers',
                             json = payload,
                             proxies = proxies
                             )
     return responseData(response)
-customers_del()
+# customers_del()
 
 
 '''--------------------------------药品---------------------------'''
@@ -118,7 +117,7 @@ def medicines_list():
                             proxies = proxies
                             )
     return responseData(response)
-medicines_list()
+# medicines_list()
 
 
 def medicines_add():
@@ -136,7 +135,7 @@ def medicines_add():
                             proxies = proxies
                             )
     return responseData(response)
-medicines_list()
+# medicines_list()
 
 
 def medicines_modify():
@@ -155,7 +154,7 @@ def medicines_modify():
                             proxies = proxies
                             )
     return responseData(response)
-medicines_modify()
+# medicines_modify()
 
 def medicines_del():
     # 删除药品信息
@@ -163,13 +162,13 @@ def medicines_del():
         "action":"del_medicine",
         "id": 279
     }
-    
+
     response = session.delete('http://127.0.0.1/api/mgr/medicines',
                             json = payload,
                             proxies = proxies
                             )
     return responseData(response)
-medicines_del()
+# medicines_del()
 
 '''--------------------------------订单---------------------------'''
 def orders_list():
@@ -186,7 +185,7 @@ def orders_list():
                             proxies = proxies
                             )
     return responseData(response)
-orders_list()
+# orders_list()
 
 def orders_add():
     # 添加一个订单
@@ -206,7 +205,7 @@ def orders_add():
                             proxies = proxies
                             )
     return responseData(response)
-orders_add()
+# orders_add()
 
 def orders_del():
     # 删除订单信息
@@ -214,10 +213,10 @@ def orders_del():
         "action":"delete_order",
         "id": 291
     }
-    
+
     response = session.delete('http://127.0.0.1/api/mgr/orders',
                             json = payload,
                             proxies = proxies
                             )
     return responseData(response)
-orders_del()
+# orders_del()

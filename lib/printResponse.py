@@ -18,5 +18,7 @@ def responseData(response):
 	
 	print(' ')
 	print('------------响应消息体---------------')
-	obj = json.loads(response.content.decode('utf8'))
-	pprint.pprint(obj)
+	# obj = json.loads(response.content.decode('utf8'))
+	# pprint.pprint(obj)
+	obj = response.json()
+	print(obj)
