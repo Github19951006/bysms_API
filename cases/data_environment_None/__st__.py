@@ -9,6 +9,8 @@ from lib.web_api import api
 
 # 初始化
 def suite_setup():
+	# 开代理
+	# api.mgr_login(uerProxies=True)
 	api.mgr_login()
 	api.orders_del_all()
 	api.customers_del_all()

@@ -9,7 +9,10 @@ from lib.printResponse import *
 class APIMgr:
 	
 	# 登录
-	def mgr_login(self,file = 'http://127.0.0.1',uername = 'byhy',password = '88888888'):
+	def mgr_login(self,file = 'http://127.0.0.1',
+	              uername = 'byhy',
+	              password = '88888888',
+	              uerProxies = False):
 		
 		payload = {
 			'username': uername,
@@ -17,7 +20,8 @@ class APIMgr:
 		}
 		# 创建session 对象
 		self.session = requests.Session()
-
+		if uerProxies:
+			self.session.proxies.update({'http': 'http://127.0.0.1:8888'})
 		# 通过session对象 发起请求
 		response = self.session.post(f'{file}/api/mgr/signin',
 		                        data=payload
@@ -26,7 +30,7 @@ class APIMgr:
 		return response
 	
 	# 列出所有客户
-	def customer_list(self,file = 'http://127.0.0.1',pagesize = 10,pagenumber = 1,keywords = ''):
+	def customer_list(self,file = 'http://127.0.0.1', pagesize = 10, pagenumber = 1, keywords = ''):
 		# URL参数
 		payload = {
 			'action': 'list_customer',
