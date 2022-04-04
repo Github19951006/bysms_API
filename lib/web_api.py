@@ -68,11 +68,11 @@ class APIMgr:
 		return response
 	
 	# 修改客户信息
-	def customers_modify(self,id,name,phonenumber,address,file = 'http://127.0.0.1'):
+	def customers_modify(self,cid,name,phonenumber,address,file = 'http://127.0.0.1'):
 		
 		payload = {
 			"action": "modify_customer",
-			"id": id,
+			"id": cid,
 			"newdata": {
 				"name": name,
 				"phonenumber": phonenumber,
@@ -99,6 +99,8 @@ class APIMgr:
 		responseData(response)
 		return response
 	
+	def customers_del_all(self):
+		pass
 	'''--------------------------------药品---------------------------'''
 	
 	def medicines_list(self,file = 'http://127.0.0.1',pagesize = 10,pagenum = 1,keywords = ''):
