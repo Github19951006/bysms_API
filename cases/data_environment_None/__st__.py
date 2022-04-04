@@ -5,3 +5,11 @@
 @Time   : 2022/04/04
 @File   :__st__.py
 """
+from lib.web_api import api
+
+# 初始化
+def suite_setup():
+	api.mgr_login()
+	api.orders_del_all()
+	api.customers_del_all()
+	api.medicines_del_all()
