@@ -9,6 +9,9 @@ from lib.web_api import api
 from hytest import *
 
 class API_0201:
+	'''
+	修改不存在的客户ID号
+	'''
 	name = '修改客户 - API_0201'
 	
 	# 测试入口
@@ -23,3 +26,5 @@ class API_0201:
 		msg = response_modify.json()["msg"]
 		INFO(msg)
 		CHECK_POINT('检查msg信息',"客户不存在" in msg )
+		
+	
