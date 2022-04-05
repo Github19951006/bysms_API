@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/cfg/cfg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/data_environment_None/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/__st__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/web_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/web_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,7 +223,7 @@
       <workItem from="1648834528676" duration="579000" />
       <workItem from="1648958841818" duration="11920000" />
       <workItem from="1648974703569" duration="13273000" />
-      <workItem from="1649006747613" duration="23845000" />
+      <workItem from="1649006747613" duration="25942000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -358,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649087602638</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Initial commit">
+      <created>1649090988539</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1649090988539</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,10 +441,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649067041881" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649087617452">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649090994899">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649087617452" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649090994899" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649006031659">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>

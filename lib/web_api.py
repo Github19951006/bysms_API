@@ -6,11 +6,11 @@
 @File   :web_api.py
 """
 from lib.printResponse import *
+from cfg import cfg
 class APIMgr:
 	
 	# 登录
-	def mgr_login(self,file = 'http://127.0.0.1',
-	              uername = 'byhy',
+	def mgr_login(self,uername = 'byhy',
 	              password = '88888888',
 	              uerProxies = False):
 		
@@ -20,8 +20,10 @@ class APIMgr:
 		}
 		# 创建session 对象
 		self.session = requests.Session()
+		# 设置代理环境
 		if uerProxies:
-			self.session.proxies.update({'http': 'http://127.0.0.1:8888'})
+			self.session.proxies.update({f'http: http://{cfg.target_host}:8888'})
+			
 		# 通过session对象 发起请求
 		response = self.session.post(f'{file}/api/mgr/signin',
 		                        data=payload
@@ -30,7 +32,9 @@ class APIMgr:
 		return response
 	
 	# 列出所有客户
-	def customer_list(self,file = 'http://127.0.0.1', pagesize = 10, pagenumber = 1, keywords = ''):
+	def customer_list(self, pagesize = 10,
+	                  pagenumber = 1,
+	                  keywords = ''):
 		# URL参数
 		payload = {
 			'action': 'list_customer',
@@ -38,7 +42,7 @@ class APIMgr:
 			'pagenum': pagenumber,
 			'keywords': keywords
 		}
-		response = self.session.get(f'{file}/api/mgr/customers',
+		response = self.session.get(f'http://{cfg.target_host}/api/mgr/customers',
 		                 params = payload
 		                 )
 		responseData(response)
@@ -46,7 +50,7 @@ class APIMgr:
 	
 	
 	# 添加客户
-	def customers_add(self,name,phonenumber,address,file = 'http://127.0.0.1'):
+	def customers_add(self,name,phonenumber,address):
 		if name == None:
 			payload = {
 				"action": "add_customer",
@@ -65,14 +69,14 @@ class APIMgr:
 				}
 			}
 			
-		response = self.session.post(f'{file}/api/mgr/customers',
+		response = self.session.post(f'http://{cfg.target_host}/api/mgr/customers',
 		                        json=payload
 		                        )
 		responseData(response)
 		return response
 	
 	# 修改客户信息
-	def customers_modify(self,cid,name,phonenumber,address,file = 'http://127.0.0.1'):
+	def customers_modify(self,cid,name,phonenumber,address):
 		
 		payload = {
 			"action": "modify_customer",
@@ -83,21 +87,21 @@ class APIMgr:
 				"address": address
 			}
 		}
-		response = self.session.put(f'{file}/api/mgr/customers',
+		response = self.session.put(f'http://{cfg.target_host}/api/mgr/customers',
 		                       json=payload
 		                       )
 		responseData(response)
 		return response
 	
 	
-	def customers_del(self,cid,file = 'http://127.0.0.1'):
+	def customers_del(self,cid):
 		# 删除客户信息
 		payload = {
 			"action": "del_customer",
 			"id": cid
 		}
 		
-		response = self.session.delete(f'{file}/api/mgr/customers',
+		response = self.session.delete(f'http://{cfg.target_host}/api/mgr/customers',
 		                          json=payload
 		                          )
 		responseData(response)
@@ -141,7 +145,7 @@ class APIMgr:
 	
 	'''--------------------------------药品---------------------------'''
 	
-	def medicines_list(self,file = 'http://127.0.0.1',pagesize = 10,pagenum = 1,keywords = ''):
+	def medicines_list(self,pagesize = 10,pagenum = 1,keywords = ''):
 		# 列出所有客户
 		# URL参数
 		urlpara = {
@@ -150,14 +154,14 @@ class APIMgr:
 			'pagenum' : pagenum,
 			'keywords': keywords
 		}
-		response = self.session.get(f'{file}/api/mgr/medicines',
+		response = self.session.get(f'http://{cfg.target_host}/api/mgr/medicines',
 		                       params=urlpara
 		                       )
 		responseData(response)
 		return response
 	
 	# 添加一个药品
-	def medicines_add(self,name,descm,sn,file = 'http://127.0.0.1'):
+	def medicines_add(self,name,descm,sn):
 		
 		payload = {
 			"action": "add_medicine",
@@ -167,14 +171,14 @@ class APIMgr:
 				"sn"   : sn
 			}
 		}
-		response = self.session.post(f'{file}/api/mgr/medicines',
+		response = self.session.post(f'http://{cfg.target_host}/api/mgr/medicines',
 		                        json=payload
 		                        )
 		responseData(response)
 		return response
 	
 	
-	def medicines_modify(self,id,name,desc,sn,file = 'http://127.0.0.1'):
+	def medicines_modify(self,id,name,desc,sn):
 		# 修改药品信息
 		payload = {
 			"action": "modify_medicine",
@@ -185,21 +189,21 @@ class APIMgr:
 				"sn"   : sn
 			}
 		}
-		response = self.session.put(f'{file}/api/mgr/medicines',
+		response = self.session.put(f'http://{cfg.target_host}/api/mgr/medicines',
 		                       json=payload
 		                       )
 		responseData(response)
 		return response
 	
 	
-	def medicines_del(self,mid,file = 'http://127.0.0.1'):
+	def medicines_del(self,mid):
 		# 删除药品信息
 		payload = {
 			"action": "del_medicine",
 			"id": mid
 		}
 		
-		response = self.session.delete(f'{file}/api/mgr/medicines',
+		response = self.session.delete(f'http://{cfg.target_host}/api/mgr/medicines',
 		                          json=payload
 		                          )
 		responseData(response)
@@ -208,7 +212,7 @@ class APIMgr:
 	
 	'''--------------------------------订单---------------------------'''
 	
-	def orders_list(self,file = 'http://127.0.0.1',pagesize = 10,pagenum = 1,keywords = ''):
+	def orders_list(self,pagesize = 10,pagenum = 1,keywords = ''):
 		# 列出所有客户
 		# URL参数
 		urlpara = {
@@ -217,14 +221,14 @@ class APIMgr:
 			'pagenum'  : pagenum,
 			'keywords' : keywords
 		}
-		response = self.session.get(f'{file}/api/mgr/orders',
+		response = self.session.get(f'http://{cfg.target_host}/api/mgr/orders',
 		                       params=urlpara
 		                       )
 		responseData(response)
 		return response
 	
 	
-	def orders_add(self,name,customerid,medicinelist,file = 'http://127.0.0.1'):
+	def orders_add(self,name,customerid,medicinelist):
 		# 添加一个订单
 		payload = {
 			"action": "add_order",
@@ -236,21 +240,21 @@ class APIMgr:
 				]
 			}
 		}
-		response = self.session.post(f'{file}/api/mgr/orders',
+		response = self.session.post(f'http://{cfg.target_host}/api/mgr/orders',
 		                        json=payload
 		                        )
 		responseData(response)
 		return response
 	
 	
-	def orders_del(self,oid,file = 'http://127.0.0.1'):
+	def orders_del(self,oid):
 		# 删除订单信息
 		payload = {
 			"action": "delete_order",
 			"id": oid
 		}
 		
-		response = self.session.delete(f'{file}/api/mgr/orders',
+		response = self.session.delete(f'http://{cfg.target_host}/api/mgr/orders',
 		                          json=payload
 		                          )
 		responseData(response)
