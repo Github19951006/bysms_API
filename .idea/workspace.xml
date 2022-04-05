@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/cases/data_environment_None/del_customer_API.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/dataEnvir_delete_customer_API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/__st__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/dataEnvir_modify_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/dataEnvir_modify_customer_API.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/modify_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/modify_customer_API.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/auto_request/test_request_headers.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/dataEnvir_modify_customer_API.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer/__st__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/cases/data_environment_None/customer_API/del_customer_API.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/cases/data_environment_None/customer_API/modify_customer_API.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/auto_request/test_request_date_urlencode.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/lib/web_api.py" root0="SKIP_INSPECTION" />
@@ -68,24 +66,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Auto_hytest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cases/data_environment_None/customer_API/data_environment_one_customer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\Auto_bysms_API\cases\data_environment_None\customer_API" />
+      <recent name="D:\study\Auto_bysms_API\cases\data_environment_None" />
+      <recent name="D:\study\Auto_bysms_API\lib1" />
+      <recent name="D:\study\Auto_bysms_API\auto_request" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\Auto_bysms_API\cases\data_environment_None\customer_API\data_environment_one_customer" />
       <recent name="D:\study\Auto_bysms_API\cases" />
       <recent name="D:\study\Auto_bysms_API\auto_request\手工测试" />
       <recent name="D:\study\Auto_bysms_API\auto_request" />
       <recent name="D:\study\Auto_bysms_API" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\Auto_bysms_API\cases\data_environment_None" />
-      <recent name="D:\study\Auto_bysms_API\cases\data_environment_None\customer_API" />
-      <recent name="D:\study\Auto_bysms_API\lib1" />
-      <recent name="D:\study\Auto_bysms_API\auto_request" />
     </key>
   </component>
   <component name="RunManager" selected="Python.modify_customer_API">
@@ -229,7 +228,8 @@
       <workItem from="1648834528676" duration="579000" />
       <workItem from="1648958841818" duration="11920000" />
       <workItem from="1648974703569" duration="13273000" />
-      <workItem from="1649006747613" duration="39905000" />
+      <workItem from="1649006747613" duration="40013000" />
+      <workItem from="1649169069685" duration="2914000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -392,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649135309660</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Initial commit">
+      <created>1649168234823</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1649168234824</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Initial commit">
+      <created>1649168300872</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1649168300872</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,22 +446,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="576" y="163" key="Github.UntrackedFilesDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645719730" />
-    <state width="1037" height="681" key="GridCell.Tab.0.bottom" timestamp="1649137132203">
+    <state width="1037" height="681" key="GridCell.Tab.0.bottom" timestamp="1649168323587">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="681" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649137132203" />
-    <state width="1037" height="681" key="GridCell.Tab.0.center" timestamp="1649137132203">
+    <state width="1037" height="681" key="GridCell.Tab.0.bottom/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649168323587" />
+    <state width="1037" height="681" key="GridCell.Tab.0.center" timestamp="1649168323587">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="681" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649137132203" />
-    <state width="1037" height="681" key="GridCell.Tab.0.left" timestamp="1649137132203">
+    <state width="1037" height="681" key="GridCell.Tab.0.center/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649168323587" />
+    <state width="1037" height="681" key="GridCell.Tab.0.left" timestamp="1649168323587">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="681" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649137132203" />
-    <state width="1037" height="681" key="GridCell.Tab.0.right" timestamp="1649137132203">
+    <state width="1037" height="681" key="GridCell.Tab.0.left/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649168323587" />
+    <state width="1037" height="681" key="GridCell.Tab.0.right" timestamp="1649168323587">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state width="1037" height="681" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649137132203" />
+    <state width="1037" height="681" key="GridCell.Tab.0.right/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649168323587" />
     <state width="1037" height="684" key="GridCell.Tab.1.bottom" timestamp="1648823640378">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
@@ -468,10 +482,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649067041881" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649135686605">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649168304648">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649135686605" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649168304648" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649128290125">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>

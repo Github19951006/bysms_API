@@ -69,24 +69,3 @@ class API_0203:
 		for ret in retlist:
 			INFO(ret['name'])
 			CHECK_POINT('检查响应信息体retlist列表', ret['phonenumber'] == '88888888')
-
-
-class API_0252:
-	'''
-	删除存在的客户
-	'''
-	name = '删除客户 - API_0251'
-	
-	# 测试入口
-	def teststeps(self):
-		# 调用全局共享 数据
-		cid = GSTORE['cid']
-		STEP(1, '删除存在的客户ID号')
-		r_del = api.customers_del(cid)
-		ret = r_del.json()['ret']
-		INFO(ret)
-		CHECK_POINT('检查返回的ret的值', ret == 0)
-		
-		STEP(2, '检查系统数据')
-		response_list = api.customer_list()
-		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
