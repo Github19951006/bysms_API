@@ -7,6 +7,10 @@
 """
 from lib.web_api import api
 from hytest import *
+
+# 标签
+force_tags = ['添加客户']
+
 class API_0151:
 	name = '添加客户 - API_0151'
 	
@@ -100,3 +104,4 @@ class API_0153:
 		STEP(2, '检查系统数据')
 		response_list = api.customer_list()
 		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
+		

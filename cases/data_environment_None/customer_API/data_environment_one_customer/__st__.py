@@ -7,8 +7,10 @@
 """
 from lib.web_api import api
 from hytest import *
+
+# 初始化方法
 def suite_setup():
-	
+	INFO('添加一个客户信息')
 	response_add = api.customers_add('东莞理工学院',
 	                                 '13553896530',
 	                                 '广东省-东莞市-松山湖大学路壹号')
@@ -17,3 +19,10 @@ def suite_setup():
 	
 	# 存储 全局共享 数据
 	GSTORE['cid'] = cid
+	
+# 清除
+def suite_teardown():
+	INFO('删除初始添加的客户信息')
+	# 调用全局共享 数据
+	cid = GSTORE['cid']
+	api.customers_del(cid)

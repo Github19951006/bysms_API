@@ -25,6 +25,12 @@ class API_0201:
 		STEP(2,'检查返回的msg信息体')
 		msg = response_modify.json()["msg"]
 		INFO(msg)
-		CHECK_POINT('检查msg信息',"客户不存在" in msg )
+		CHECK_POINT('检查msg信息',msg == 'id 为`78`的客户不存在' )
+		
+		STEP(3, '列出客户信息')
+		r = api.customer_list()
+		CHECK_POINT('检查响应信息体retlist列表',r.json()['retlist'] == [])
+		
+		
 		
 	
