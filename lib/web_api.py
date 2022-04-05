@@ -25,7 +25,7 @@ class APIMgr:
 			self.session.proxies.update({f'http: http://{cfg.target_host}:8888'})
 			
 		# 通过session对象 发起请求
-		response = self.session.post(f'{file}/api/mgr/signin',
+		response = self.session.post(f'http://{cfg.target_host}/api/mgr/signin',
 		                        data=payload
 		                        )
 		responseData(response)
