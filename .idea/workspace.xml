@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -227,6 +229,7 @@
       <workItem from="1649006747613" duration="40013000" />
       <workItem from="1649169069685" duration="2914000" />
       <workItem from="1649337231411" duration="3122000" />
+      <workItem from="1649343218040" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -410,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649342714376</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Initial commit">
+      <created>1649343234072</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1649343234072</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,10 +451,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649079065945" />
-    <state x="-649" y="724" key="Github.ShareDialog" timestamp="1648742927053">
+    <state x="-649" y="724" key="Github.ShareDialog" timestamp="1649343408712">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-649" y="724" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742927053" />
+    <state x="-649" y="724" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649343408712" />
     <state x="574" y="358" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645712281" />
     <state x="576" y="163" key="Github.UntrackedFilesDialog" timestamp="1648645719730">
       <screen x="0" y="0" width="1440" height="920" />
@@ -486,10 +496,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649067041881" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649343188987">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649343474286">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649343188987" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649343474286" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649128290125">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
