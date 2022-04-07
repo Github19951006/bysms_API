@@ -21,10 +21,11 @@ class API_0151:
 	# 测试入口
 	def teststeps(self):
 		STEP(1,'添加客户信息')
-		response_add = api.customers_add('东莞理工学院',
-		                                '13553896530',
-		                                '广东省-东莞市-松山湖大学路壹号'
-		                                 )
+		response_add = api.customers_add({
+				"name": "东莞理工学院",
+				"phonenumber": "13553896530",
+				"address": "广东省-东莞市-松山湖大学路壹号"
+			})
 		
 		ret_add_customer_json = response_add.json()
 		CHECK_POINT('检查返回的ret结果',
@@ -46,10 +47,11 @@ class API_0152:
 		
 		INFO('添加10个客户')
 		for i in range(10):
-			api.customers_add(f'东莞理工学院{i+1}',
-			                  f'0755-819583{i+2}',
-			                  f'东莞市松山湖大学路{i+1}'
-			                  )
+			api.customers_add({
+				"name": f"东莞理工学院{i+1}",
+				"phonenumber": f"0755-819583{i+2}",
+				"address": f"东莞市松山湖大学路{i+1}"
+			})
 	# 清除方法
 	def teardown(self):
 		
@@ -68,10 +70,11 @@ class API_0152:
 	def teststeps(self):
 		
 		STEP(1, '添加客户信息')
-		response_add = api.customers_add('东莞职业技术学院',
-		                                 '88886666',
-		                                 '广东省-东莞市-松山湖大学路壹号'
-		                                 )
+		response_add = api.customers_add({
+			"name":"东莞职业技术学院",
+			"phonenumber":"88886666",
+			"address":"广东省-东莞市-松山湖大学路壹号"
+		})
 		
 		ret_add_customer_json = response_add.json()
 		CHECK_POINT('检查返回的ret结果',
@@ -90,10 +93,10 @@ class API_0153:
 	# 测试入口
 	def teststeps(self):
 		STEP(1, '添加客户信息')
-		response_add = api.customers_add(None,
-		                                 '13553896530',
-		                                 '广东省-东莞市-松山湖大学路壹号'
-		                                 )
+		response_add = api.customers_add({
+			"phonenumber":"13553896530",
+			"address":"广东省-东莞市-松山湖大学路壹号"
+		})
 		
 		ret_add_customer_json = response_add.json()
 		INFO(ret_add_customer_json)

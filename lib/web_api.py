@@ -50,24 +50,12 @@ class APIMgr:
 	
 	
 	# 添加客户
-	def customers_add(self,name,phonenumber,address):
-		if name == None:
-			payload = {
-				"action": "add_customer",
-				"data": {
-					"phonenumber": phonenumber,
-					"address": address
-				}
-			}
-		else:
-			payload = {
-				"action": "add_customer",
-				"data": {
-					"name": name,
-					"phonenumber": phonenumber,
-					"address": address
-				}
-			}
+	def customers_add(self,c_data):
+		
+		payload = {
+			"action": "add_customer",
+			"data": c_data
+		}
 			
 		response = self.session.post(f'http://{cfg.target_host}/api/mgr/customers',
 		                        json=payload
