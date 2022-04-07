@@ -19,9 +19,12 @@ class API_0252:
 	
 	# 初始化方法
 	def setup(self):
-		r = api.customers_add('University of Technology',
-		                      '898989888',
-		                      '松山湖大学路1号')
+		r = api.customers_add({
+				"name": "University of Technology",
+				"phonenumber": "898989888",
+				"address": "松山湖大学路1号"
+			})
+		
 		self.cid = r.json()['id']
 	
 	# 测试入口

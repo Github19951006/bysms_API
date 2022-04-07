@@ -11,9 +11,11 @@ from hytest import *
 # 初始化方法
 def suite_setup():
 	INFO('添加一个客户信息')
-	response_add = api.customers_add('东莞理工学院',
-	                                 '13553896530',
-	                                 '广东省-东莞市-松山湖大学路壹号')
+	response_add = api.customers_add({
+				"name": "东莞理工学院",
+				"phonenumber": "13553896530",
+				"address": "广东省-东莞市-松山湖大学路壹号"
+			})
 	# 将添加客户后返回的id保存
 	cid = response_add.json()['id']
 	
