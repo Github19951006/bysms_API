@@ -69,6 +69,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -229,7 +230,7 @@
       <workItem from="1649006747613" duration="40013000" />
       <workItem from="1649169069685" duration="2914000" />
       <workItem from="1649337231411" duration="3122000" />
-      <workItem from="1649343218040" duration="778000" />
+      <workItem from="1649343218040" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -420,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649343234072</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Initial commit">
+      <created>1649343999862</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1649343999862</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,14 +455,18 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-658" y="802" key="#Notifications/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1648742776317" />
+    <state x="-746" y="726" key="#Web_Browsers" timestamp="1649344252877">
+      <screen x="-1080" y="0" width="1080" height="1860" />
+    </state>
+    <state x="-746" y="726" key="#Web_Browsers/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344252877" />
     <state x="-760" y="695" key="FileChooserDialogImpl" timestamp="1649079065945">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649079065945" />
-    <state x="-649" y="724" key="Github.ShareDialog" timestamp="1649343408712">
+    <state x="-649" y="724" key="Github.ShareDialog" timestamp="1649344245863">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-649" y="724" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649343408712" />
+    <state x="-649" y="724" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344245863" />
     <state x="574" y="358" key="Github.ShareDialog/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1648645712281" />
     <state x="576" y="163" key="Github.UntrackedFilesDialog" timestamp="1648645719730">
       <screen x="0" y="0" width="1440" height="920" />
@@ -496,10 +508,14 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-960" y="674" key="IDE.errors.dialog/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649067041881" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649343474286">
+    <state x="-1039" y="584" key="SettingsEditor" timestamp="1649344175919">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649343474286" />
+    <state x="-1039" y="584" key="SettingsEditor/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344175919" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649344007326">
+      <screen x="-1080" y="0" width="1080" height="1860" />
+    </state>
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344007326" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649128290125">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
