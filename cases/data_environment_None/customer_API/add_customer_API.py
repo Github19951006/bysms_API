@@ -103,7 +103,7 @@ class API_0153:
 		CHECK_POINT('检查返回的ret结果',
 		            ret_add_customer_json['ret'] == 1
 		            )
-		
+
 		STEP(2, '检查系统数据')
 		response_list = api.customer_list()
 		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
