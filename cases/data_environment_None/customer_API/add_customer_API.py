@@ -107,4 +107,75 @@ class API_0153:
 		STEP(2, '检查系统数据')
 		response_list = api.customer_list()
 		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
+
+
+class API_0154:
+	name = '添加客户（客户名字段重复2次） - API_0154'
+	
+	# 测试入口
+	def teststeps(self):
+		STEP(1, '添加客户信息')
+		response_add = api.customers_add({
+			"name": "东莞理工学院",
+			"name1": "东莞理工学院1",
+			"phonenumber": "13553896530",
+			"address": "广东省-东莞市-松山湖大学路壹号"
+		})
 		
+		ret_add_customer_json = response_add.json()
+		INFO(ret_add_customer_json)
+		CHECK_POINT('检查返回响应消息体',
+		            ret_add_customer_json == {
+			            "ret": 1,
+			            "msg": "请求消息参数错误"
+		            })
+		
+		STEP(2, '检查系统数据')
+		response_list = api.customer_list()
+		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
+
+
+class API_0155:
+	name = '添加客户（电话号码字段缺失） - API_0155'
+	
+	# 测试入口
+	def teststeps(self):
+		STEP(1, '添加客户信息')
+		response_add = api.customers_add({
+			"name": "东莞理工学院",
+			"address": "广东省-东莞市-松山湖大学路壹号"
+		})
+		
+		ret_add_customer_json = response_add.json()
+		INFO(ret_add_customer_json)
+		CHECK_POINT('检查返回的ret结果',
+		            ret_add_customer_json['ret'] == 1
+		            )
+		
+		STEP(2, '检查系统数据')
+		response_list = api.customer_list()
+		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
+
+
+class API_0156:
+	name = '添加客户（电话号码字段重复2次） - API_0156'
+	
+	# 测试入口
+	def teststeps(self):
+		STEP(1, '添加客户信息')
+		response_add = api.customers_add({
+			"name": "东莞理工学院",
+			"phonenumber": "13553896530",
+			"phonenumber": "88888888888",
+			"address": "广东省-东莞市-松山湖大学路壹号"
+		})
+		
+		ret_add_customer_json = response_add.json()
+		INFO(ret_add_customer_json)
+		CHECK_POINT('检查返回的ret结果',
+		            ret_add_customer_json['ret'] == 1
+		            )
+		
+		STEP(2, '检查系统数据')
+		response_list = api.customer_list()
+		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)

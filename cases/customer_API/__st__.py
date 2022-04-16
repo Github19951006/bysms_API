@@ -13,5 +13,5 @@ from lib.web_api import api
 def suite_setup():
 	# 开代理
 	# api.mgr_login(uerProxies=True)
-	INFO('删除客户、药品、订单')
+	INFO('登录系统')
 	api.mgr_login()

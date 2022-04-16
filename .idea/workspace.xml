@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/cases/customer_API/__st__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cases/customer_API/add_customer_API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/customer_API/__st__.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/customer_API/__st__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cases/customer_API/add_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/customer_API/add_customer_API.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,7 +236,7 @@
       <workItem from="1649343218040" duration="1764000" />
       <workItem from="1649350700277" duration="5035000" />
       <workItem from="1649856750182" duration="836000" />
-      <workItem from="1650035633270" duration="1274000" />
+      <workItem from="1650035633270" duration="4288000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -483,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649856962390</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Initial commit">
+      <created>1650038219889</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1650038219889</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,10 +576,10 @@
     </state>
     <state x="-1039" y="584" key="SettingsEditor/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344958545" />
     <state x="55" y="210" key="SettingsEditor/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1649388800206" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1649856971120">
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1650038240069">
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649856971120" />
+    <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650038240069" />
     <state x="176" y="333" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1649389411784" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649128290125">
       <screen x="-1080" y="0" width="1080" height="1860" />
