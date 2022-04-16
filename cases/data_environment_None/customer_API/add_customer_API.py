@@ -112,6 +112,10 @@ class API_0153:
 class API_0154:
 	name = '添加客户（客户名字段重复2次） - API_0154'
 	
+	# 清除方法
+	def teardown(self):
+		api.customers_del(cid=self.add_customerID)
+		
 	# 测试入口
 	def teststeps(self):
 		STEP(1, '添加客户信息')
@@ -123,17 +127,18 @@ class API_0154:
 		})
 		
 		ret_add_customer_json = response_add.json()
+		
+		# 保存添加客户的ID
+		self.add_customerID = ret_add_customer_json['id']
+		
 		INFO(ret_add_customer_json)
-		CHECK_POINT('检查返回响应消息体',
-		            ret_add_customer_json == {
-			            "ret": 1,
-			            "msg": "请求消息参数错误"
-		            })
+		CHECK_POINT('检查返回的ret结果',
+		            ret_add_customer_json['ret'] == 1
+		            )
 		
 		STEP(2, '检查系统数据')
 		response_list = api.customer_list()
 		CHECK_POINT('检查客户的数量', response_list.json()['total'] == 0)
-
 
 class API_0155:
 	name = '添加客户（电话号码字段缺失） - API_0155'
@@ -160,6 +165,10 @@ class API_0155:
 class API_0156:
 	name = '添加客户（电话号码字段重复2次） - API_0156'
 	
+	# 清除方法
+	def teardown(self):
+		api.customers_del(cid=self.add_customerID)
+		
 	# 测试入口
 	def teststeps(self):
 		STEP(1, '添加客户信息')
@@ -171,6 +180,10 @@ class API_0156:
 		})
 		
 		ret_add_customer_json = response_add.json()
+		
+		# 保存添加客户的ID
+		self.add_customerID = ret_add_customer_json['id']
+		
 		INFO(ret_add_customer_json)
 		CHECK_POINT('检查返回的ret结果',
 		            ret_add_customer_json['ret'] == 1
