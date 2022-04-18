@@ -30,7 +30,13 @@ class API_0201:
 		STEP(3, '列出客户信息')
 		r = api.customer_list()
 		CHECK_POINT('检查响应信息体retlist列表',r.json()['retlist'] == [])
-		
-		
-		
+
+
+class API_0202:
+	
+	name = '修改客户 - API_0202'
+	
+	# 测试入口
+	def teststeps(self):
+		pass
 	
