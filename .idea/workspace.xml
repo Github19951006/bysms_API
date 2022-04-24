@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="00ac1909-5890-4c59-a512-166603b9f807" name="Default Changelist" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" beforeDir="false" afterPath="$PROJECT_DIR$/cases/data_environment_None/customer_API/add_customer_API.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoTest_education" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -241,6 +240,7 @@
       <workItem from="1650556236518" duration="1217000" />
       <workItem from="1650601671139" duration="2635000" />
       <workItem from="1650645959756" duration="1449000" />
+      <workItem from="1650816578555" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1648742486005</created>
@@ -522,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650469621315</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Initial commit">
+      <created>1650816586619</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1650816586619</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,9 +561,10 @@
       <screen x="-1080" y="0" width="1080" height="1860" />
     </state>
     <state x="-746" y="726" key="#Web_Browsers/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344252877" />
-    <state x="427" y="344" key="FileChooserDialogImpl" timestamp="1650625360025">
-      <screen x="0" y="0" width="1440" height="920" />
+    <state x="-760" y="503" key="FileChooserDialogImpl" timestamp="1650816729954">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state x="-760" y="503" key="FileChooserDialogImpl/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816729954" />
     <state x="-760" y="695" key="FileChooserDialogImpl/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650380931848" />
     <state x="427" y="344" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1650625360025" />
     <state x="-649" y="724" key="Github.ShareDialog" timestamp="1649344245863">
@@ -610,9 +618,10 @@
     <state x="-1039" y="584" key="SettingsEditor/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1649344958545" />
     <state x="55" y="210" key="SettingsEditor/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1649388800206" />
     <state x="55" y="210" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1650625056836" />
-    <state x="-948" y="673" key="Vcs.Push.Dialog.v2" timestamp="1650469629803">
-      <screen x="-1080" y="0" width="1080" height="1860" />
+    <state x="-948" y="481" key="Vcs.Push.Dialog.v2" timestamp="1650816662291">
+      <screen x="-1080" y="-192" width="1080" height="1860" />
     </state>
+    <state x="-948" y="481" key="Vcs.Push.Dialog.v2/-1080.-192.1080.1860/0.0.1440.920@-1080.-192.1080.1860" timestamp="1650816662291" />
     <state x="-948" y="673" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@-1080.0.1080.1860" timestamp="1650469629803" />
     <state x="176" y="333" key="Vcs.Push.Dialog.v2/-1080.0.1080.1860/0.0.1440.920@0.0.1440.920" timestamp="1649389411784" />
     <state x="-877" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1649128290125">
