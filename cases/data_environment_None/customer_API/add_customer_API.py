@@ -182,6 +182,7 @@ class API_0156:
 		ret_add_customer_json = response_add.json()
 		
 		# 保存添加客户的ID
+		# 经验之谈：使用self，存到self中，self是实例对象都能访问到的东西
 		self.add_customerID = ret_add_customer_json['id']
 		
 		INFO(ret_add_customer_json)
